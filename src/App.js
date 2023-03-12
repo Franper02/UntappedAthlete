@@ -6,7 +6,7 @@ import GetStarted from './components/GetStarted';
 
 function App() {
   return (
-    <div className="text-center bg-[#161516] 2xl:max-w-[90rem] 2xl:mx-auto">
+    <div className="text-center bg-[#161516] 2xl:max-w-[130rem] 2xl:mx-auto">
       <Hero />
       <Features />
       <Testimonials />

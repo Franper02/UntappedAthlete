@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import HeroImage from '../assets/hero-test-3.jpg'
+import HeroImage from '../assets/hero-image.jpg'
 
 const navigation = [
   { name: 'WHY UNTAPPED ATHLETE', href: '/#features' },

@@ -22,6 +22,28 @@ body {
   background: #161516;
 }
 
+body::-webkit-scrollbar{
+  width: 9px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-track{
+  background:#161516;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #DEAC40;
+  border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background:#161516;
+}
+
+body{
+  scrollbar-track-color: #161516;  
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
